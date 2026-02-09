@@ -1,11 +1,5 @@
 # Assignment 6 – Implementation of Multivariate Displays
 
-## Student Details
-Roll No: 23BAD082  
-Course Code: U18AII5202L  
-
----
-
 ## Objective
 To implement multivariate visualization techniques to analyze relationships among multiple variables in a retail business dataset.
 
