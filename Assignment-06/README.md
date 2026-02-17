@@ -58,9 +58,9 @@ Your dataset should contain at least these columns:
 
 ## 🛠️ Tools / Libraries Used
 
-R / RStudio
-ggplot2
-GGally
+- R / RStudio
+- ggplot2
+- GGally
 
 ## 📥 Install Required Packages
 
