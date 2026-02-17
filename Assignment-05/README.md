@@ -55,9 +55,9 @@ AVERAGEX(
 
 A Grade Count =
 CALCULATE(COUNTROWS(StudentData), StudentData[Final_Grade] = "A")
-
+```
 ---
-2) Filters (Slicers)
+### 2) Filters (Slicers)
 
 Implemented slicers for interactive filtering:
 
@@ -69,7 +69,7 @@ Subject
 
 These slicers dynamically update all KPI cards and charts.
 
-3) Linked Views for Drill-Down Analysis
+### 3) Linked Views for Drill-Down Analysis
 
 Implemented multiple linked visual views using:
 
@@ -87,7 +87,7 @@ Users can right-click a department/semester and drill through to view student-wi
 
 Clicking any visual automatically filters other visuals on the page.
 
-📊 Visuals Used in Dashboard
+### 📊 Visuals Used in Dashboard
 
 KPI Cards (Attendance, Performance, Student Count)
 
@@ -97,7 +97,7 @@ Line Chart (Attendance trend across semesters)
 
 Table View (Student detailed drill-through)
 
-🧠 Key Insights from Dashboard
+### 🧠 Key Insights from Dashboard
 
 Attendance trends across departments and semesters can be monitored easily.
 
@@ -107,12 +107,12 @@ Drill-through enables tracking of student-level performance and grades.
 
 Interactive filters support deeper analysis and faster decision-making.
 
-✅ Conclusion
+### ✅ Conclusion
 
 This PowerBI dashboard provides real-time and interactive monitoring of smart campus metrics.
 It helps institutions improve transparency, identify performance issues early, and support AI-driven academic decision-making.
 
-🛠 Tools Used
+### 🛠 Tools Used
 
 PowerBI Desktop
 
@@ -120,7 +120,7 @@ DAX Measures
 
 Visualizations (Cards, Charts, Tables, Slicers)
 
-📌 Output
+### 📌 Output
 
 An interactive PowerBI dashboard with KPI cards, filters, and drill-down analysis for a smart campus system.
 
