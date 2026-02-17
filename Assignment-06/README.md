@@ -1,68 +1,69 @@
-# Assignment 6 – Implementation of Multivariate Displays
+# 📊 EXPT 6 — Implementation of Multivariate Displays (R)
 
-## Objective
-To implement multivariate visualization techniques to analyze relationships among multiple variables in a retail business dataset.
-
----
-
-## Folder Structure
-
-Assignment_6/
-├── code/
-│   └── assignment6.R  
-├── data/
-│   └── 6.retail_business.csv  
-├── figures/
-│   ├── parallel_plot.png  
-│   ├── bubble_chart.png  
-│   └── trellis_display.png  
-├── README.md  
-└── config.txt  
+## 📌 Objective
+To implement **advanced multivariate displays** for complex data analysis and meaningful visual communication.
 
 ---
 
-## Dataset Description
+## 🏙️ Scenario
+A **retail analytics firm** analyzes business data to study patterns across multiple variables such as:
 
-The dataset contains retail sales records with the following attributes:
-
-- Order_ID  
-- Region  
-- Product_Category  
 - Sales  
 - Profit  
 - Discount  
-- Customer_Segment  
+- Region  
+- Product Category  
+
+This helps in optimizing business strategy and decision-making.
 
 ---
 
-## Visualizations Implemented
+## ✅ Multivariate Visualizations Used
 
-1. **Parallel Coordinate Plot**  
-   Displays relationships among Sales, Profit, and Discount across customer segments.
-
-2. **Bubble Chart**  
-   Shows Sales vs Profit with bubble size representing Discount and color representing Region.
-
-3. **Trellis Display (Faceting)**  
-   Shows Profit by Product Category across different Regions and Customer Segments.
+### 1️⃣ Parallel Coordinate Plot
+**Purpose:** Compare multiple numerical features together  
+- Sales  
+- Profit  
+- Discount  
+Grouped by → **Region**
 
 ---
 
-## Tools and Libraries Used
-
-- RStudio  
-- ggplot2  
-- dplyr  
-- GGally  
+### 2️⃣ Bubble Chart
+**Visual Encoding Used**
+- Sales → X-axis  
+- Profit → Y-axis  
+- Discount → Bubble Size  
+- Region → Color  
 
 ---
 
-## How to Run
+### 3️⃣ Trellis Display (Facet Plot)
+**Purpose:** Break a large plot into smaller region-wise plots  
+- Total Sales by Product Category  
+Faceted by → **Region**
 
-1. Open RStudio  
-2. Set working directory to Assignment_6 folder  
-3. Run the script:
+---
 
-```r
-source("code/assignment6.R")
+## 📂 Dataset Columns (Required)
+Your dataset should contain at least these columns:
 
+- Sales  
+- Profit  
+- Discount  
+- Region  
+- Product_Category  
+
+---
+
+## 🛠️ Tools / Libraries Used
+
+R / RStudio
+ggplot2
+GGally
+
+## 📥 Install Required Packages
+
+install.packages("ggplot2")
+
+install.packages("GGally")
